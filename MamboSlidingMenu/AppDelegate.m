@@ -6,9 +6,12 @@
 //  Copyright (c) 2015 Cristian. All rights reserved.
 //
 
+#import "RMenu_TableViewController.h"
 #import "AppDelegate.h"
+#import "SlideNavigationController.h"
 
 @interface AppDelegate ()
+
 
 @end
 
@@ -16,7 +19,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    
+    UIStoryboard *mainStoryboard =
+    [UIStoryboard storyboardWithName:@"Main" bundle: nil];
+
+    RMenu_TableViewController *rightMenu = (RMenu_TableViewController*)
+    [mainStoryboard instantiateViewControllerWithIdentifier: @"RMenu"];
+    
+	[SlideNavigationController sharedInstance].rightMenu = rightMenu;
+    
     return YES;
 }
 

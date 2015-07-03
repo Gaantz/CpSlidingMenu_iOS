@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40BEA4471B4705730017B669 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BEA4461B4705730017B669 /* SlideNavigationController.m */; };
+		40BEA44E1B4724E30017B669 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BEA44D1B4724E30017B669 /* SlideNavigationContorllerAnimatorSlide.m */; };
+		40BEA4501B47278E0017B669 /* ic_dehaze.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 40BEA44F1B47278E0017B669 /* ic_dehaze.imageset */; };
+		40BEA4561B4729920017B669 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 40BEA4521B4729920017B669 /* Contents.json */; };
+		40BEA4571B4729920017B669 /* ic_dehaze_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEA4531B4729920017B669 /* ic_dehaze_2x.png */; };
+		40BEA4581B4729920017B669 /* ic_dehaze_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEA4541B4729920017B669 /* ic_dehaze_3x.png */; };
+		40BEA4591B4729920017B669 /* ic_dehaze.png in Resources */ = {isa = PBXBuildFile; fileRef = 40BEA4551B4729920017B669 /* ic_dehaze.png */; };
+		40BEA45D1B474B750017B669 /* UnoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BEA45C1B474B750017B669 /* UnoViewController.m */; };
+		40BEA4601B474B7D0017B669 /* DosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BEA45F1B474B7D0017B669 /* DosViewController.m */; };
+		40BEA4631B474B8B0017B669 /* TresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BEA4621B474B8B0017B669 /* TresViewController.m */; };
 		40EA6A601B46F3A9002E24C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6A5F1B46F3A9002E24C5 /* main.m */; };
 		40EA6A631B46F3A9002E24C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6A621B46F3A9002E24C5 /* AppDelegate.m */; };
 		40EA6A661B46F3AA002E24C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6A651B46F3AA002E24C5 /* ViewController.m */; };
@@ -14,6 +24,7 @@
 		40EA6A6B1B46F3AA002E24C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6A6A1B46F3AA002E24C5 /* Images.xcassets */; };
 		40EA6A6E1B46F3AA002E24C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6A6C1B46F3AA002E24C5 /* LaunchScreen.xib */; };
 		40EA6A7A1B46F3AA002E24C5 /* MamboSlidingMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6A791B46F3AA002E24C5 /* MamboSlidingMenuTests.m */; };
+		40EA6A861B46F3E9002E24C5 /* RMenu_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6A851B46F3E9002E24C5 /* RMenu_TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40BEA4451B4705730017B669 /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
+		40BEA4461B4705730017B669 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
+		40BEA4481B4705BD0017B669 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		40BEA44C1B4724E30017B669 /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		40BEA44D1B4724E30017B669 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		40BEA44F1B47278E0017B669 /* ic_dehaze.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ic_dehaze.imageset; sourceTree = "<group>"; };
+		40BEA4521B4729920017B669 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Contents.json; path = ic_dehaze.imageset/Contents.json; sourceTree = "<group>"; };
+		40BEA4531B4729920017B669 /* ic_dehaze_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_dehaze_2x.png; path = ic_dehaze.imageset/ic_dehaze_2x.png; sourceTree = "<group>"; };
+		40BEA4541B4729920017B669 /* ic_dehaze_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_dehaze_3x.png; path = ic_dehaze.imageset/ic_dehaze_3x.png; sourceTree = "<group>"; };
+		40BEA4551B4729920017B669 /* ic_dehaze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_dehaze.png; path = ic_dehaze.imageset/ic_dehaze.png; sourceTree = "<group>"; };
+		40BEA45B1B474B750017B669 /* UnoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnoViewController.h; sourceTree = "<group>"; };
+		40BEA45C1B474B750017B669 /* UnoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnoViewController.m; sourceTree = "<group>"; };
+		40BEA45E1B474B7D0017B669 /* DosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DosViewController.h; sourceTree = "<group>"; };
+		40BEA45F1B474B7D0017B669 /* DosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DosViewController.m; sourceTree = "<group>"; };
+		40BEA4611B474B8B0017B669 /* TresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TresViewController.h; sourceTree = "<group>"; };
+		40BEA4621B474B8B0017B669 /* TresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TresViewController.m; sourceTree = "<group>"; };
 		40EA6A5A1B46F3A9002E24C5 /* MamboSlidingMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MamboSlidingMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40EA6A5E1B46F3A9002E24C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40EA6A5F1B46F3A9002E24C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +67,8 @@
 		40EA6A731B46F3AA002E24C5 /* MamboSlidingMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MamboSlidingMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40EA6A781B46F3AA002E24C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40EA6A791B46F3AA002E24C5 /* MamboSlidingMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MamboSlidingMenuTests.m; sourceTree = "<group>"; };
+		40EA6A841B46F3E9002E24C5 /* RMenu_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMenu_TableViewController.h; sourceTree = "<group>"; };
+		40EA6A851B46F3E9002E24C5 /* RMenu_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMenu_TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +89,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40BEA4511B4729870017B669 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				40BEA4521B4729920017B669 /* Contents.json */,
+				40BEA4531B4729920017B669 /* ic_dehaze_2x.png */,
+				40BEA4541B4729920017B669 /* ic_dehaze_3x.png */,
+				40BEA4551B4729920017B669 /* ic_dehaze.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		40BEA45A1B474B560017B669 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				40BEA45B1B474B750017B669 /* UnoViewController.h */,
+				40BEA45C1B474B750017B669 /* UnoViewController.m */,
+				40BEA45E1B474B7D0017B669 /* DosViewController.h */,
+				40BEA45F1B474B7D0017B669 /* DosViewController.m */,
+				40BEA4611B474B8B0017B669 /* TresViewController.h */,
+				40BEA4621B474B8B0017B669 /* TresViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		40EA6A511B46F3A9002E24C5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +134,23 @@
 		40EA6A5C1B46F3A9002E24C5 /* MamboSlidingMenu */ = {
 			isa = PBXGroup;
 			children = (
+				40BEA45A1B474B560017B669 /* Controllers */,
+				40BEA4511B4729870017B669 /* Images */,
+				40BEA44C1B4724E30017B669 /* SlideNavigationContorllerAnimatorSlide.h */,
+				40BEA44D1B4724E30017B669 /* SlideNavigationContorllerAnimatorSlide.m */,
+				40BEA4481B4705BD0017B669 /* SlideNavigationContorllerAnimator.h */,
+				40BEA4451B4705730017B669 /* SlideNavigationController.h */,
+				40BEA4461B4705730017B669 /* SlideNavigationController.m */,
+				40EA6A841B46F3E9002E24C5 /* RMenu_TableViewController.h */,
+				40EA6A851B46F3E9002E24C5 /* RMenu_TableViewController.m */,
 				40EA6A611B46F3A9002E24C5 /* AppDelegate.h */,
 				40EA6A621B46F3A9002E24C5 /* AppDelegate.m */,
 				40EA6A641B46F3AA002E24C5 /* ViewController.h */,
 				40EA6A651B46F3AA002E24C5 /* ViewController.m */,
 				40EA6A671B46F3AA002E24C5 /* Main.storyboard */,
-				40EA6A6A1B46F3AA002E24C5 /* Images.xcassets */,
 				40EA6A6C1B46F3AA002E24C5 /* LaunchScreen.xib */,
+				40EA6A6A1B46F3AA002E24C5 /* Images.xcassets */,
+				40BEA44F1B47278E0017B669 /* ic_dehaze.imageset */,
 				40EA6A5D1B46F3A9002E24C5 /* Supporting Files */,
 			);
 			path = MamboSlidingMenu;
@@ -199,9 +262,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40BEA4581B4729920017B669 /* ic_dehaze_3x.png in Resources */,
+				40BEA4561B4729920017B669 /* Contents.json in Resources */,
 				40EA6A691B46F3AA002E24C5 /* Main.storyboard in Resources */,
+				40BEA4571B4729920017B669 /* ic_dehaze_2x.png in Resources */,
+				40BEA4591B4729920017B669 /* ic_dehaze.png in Resources */,
 				40EA6A6E1B46F3AA002E24C5 /* LaunchScreen.xib in Resources */,
 				40EA6A6B1B46F3AA002E24C5 /* Images.xcassets in Resources */,
+				40BEA4501B47278E0017B669 /* ic_dehaze.imageset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +289,13 @@
 			files = (
 				40EA6A661B46F3AA002E24C5 /* ViewController.m in Sources */,
 				40EA6A631B46F3A9002E24C5 /* AppDelegate.m in Sources */,
+				40BEA4631B474B8B0017B669 /* TresViewController.m in Sources */,
+				40BEA44E1B4724E30017B669 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+				40BEA4601B474B7D0017B669 /* DosViewController.m in Sources */,
+				40BEA45D1B474B750017B669 /* UnoViewController.m in Sources */,
 				40EA6A601B46F3A9002E24C5 /* main.m in Sources */,
+				40EA6A861B46F3E9002E24C5 /* RMenu_TableViewController.m in Sources */,
+				40BEA4471B4705730017B669 /* SlideNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +492,7 @@
 				40EA6A7F1B46F3AA002E24C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40EA6A801B46F3AA002E24C5 /* Build configuration list for PBXNativeTarget "MamboSlidingMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +501,7 @@
 				40EA6A821B46F3AA002E24C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

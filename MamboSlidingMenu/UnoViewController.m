@@ -1,21 +1,21 @@
 //
-//  ViewController.m
+//  UnoViewController.m
 //  MamboSlidingMenu
 //
 //  Created by Cristian on 3/07/15.
 //  Copyright (c) 2015 Cristian. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "UnoViewController.h"
+#import "SlideNavigationController.h"
 #import "RMenu_TableViewController.h"
 #import "SlideNavigationContorllerAnimatorSlide.h"
 
-@interface ViewController ()<protocolo1>
-@property(nonatomic,weak) NSString *mitulo;
+@interface UnoViewController ()
 
 @end
 
-@implementation ViewController
+@implementation UnoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,23 +24,19 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
--(BOOL)slideNavigationControllerShouldDisplayLeftMenu
-{
-    return false;
-}
+/*
+#pragma mark - Navigation
 
-- (BOOL)slideNavigationControllerShouldDisplayRightMenu
-{
-    return true;
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
 }
+*/
 
--(void)cambiarTitulo:(NSString *)titulo
-{
-    self.titulo.text = titulo;
-    self.navigationItem.title = titulo;
-}
 
 - (void)initMenu
 {
@@ -50,7 +46,6 @@
     
     RMenu_TableViewController *rm =
     ((RMenu_TableViewController*)[SlideNavigationController sharedInstance].rightMenu);
-    [rm slideOutAnimationEnabled];
     rm.delegate=self;
     
     id<SlideNavigationContorllerAnimator> revealAnimator =
@@ -62,7 +57,7 @@
         [SlideNavigationController sharedInstance].menuRevealAnimator = revealAnimator;
     }];
     
-    [SlideNavigationController sharedInstance].rightBarButtonItem = self.btnmenu;
+    //[SlideNavigationController sharedInstance].rightBarButtonItem = self.btnmenu;
 }
 
 @end

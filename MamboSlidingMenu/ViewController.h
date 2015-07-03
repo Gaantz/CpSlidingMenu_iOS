@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SlideNavigationController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <SlideNavigationControllerDelegate>
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *btnmenu;
+@property (nonatomic, strong) IBOutlet UILabel *titulo;
 
 @end
 
