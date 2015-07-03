@@ -11,7 +11,7 @@
 #import "RMenu_TableViewController.h"
 #import "SlideNavigationContorllerAnimatorSlide.h"
 
-@interface UnoViewController ()
+@interface UnoViewController () <SlideNavigationControllerDelegate>
 
 @end
 
@@ -37,6 +37,10 @@
 }
 */
 
+- (BOOL)slideNavigationControllerShouldDisplayRightMenu
+{
+    return YES;
+}
 
 - (void)initMenu
 {
@@ -46,7 +50,7 @@
     
     RMenu_TableViewController *rm =
     ((RMenu_TableViewController*)[SlideNavigationController sharedInstance].rightMenu);
-    rm.delegate=self;
+    [rm slideOutAnimationEnabled];
     
     id<SlideNavigationContorllerAnimator> revealAnimator =
     [[SlideNavigationContorllerAnimatorSlide alloc] init];

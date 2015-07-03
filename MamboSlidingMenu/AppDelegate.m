@@ -26,7 +26,7 @@
 
     RMenu_TableViewController *rightMenu = (RMenu_TableViewController*)
     [mainStoryboard instantiateViewControllerWithIdentifier: @"RMenu"];
-    
+
 	[SlideNavigationController sharedInstance].rightMenu = rightMenu;
     
     return YES;
