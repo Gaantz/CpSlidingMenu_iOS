@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40EA6A601B46F3A9002E24C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6A5F1B46F3A9002E24C5 /* main.m */; };
+		40EA6A631B46F3A9002E24C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6A621B46F3A9002E24C5 /* AppDelegate.m */; };
+		40EA6A661B46F3AA002E24C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6A651B46F3AA002E24C5 /* ViewController.m */; };
+		40EA6A691B46F3AA002E24C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6A671B46F3AA002E24C5 /* Main.storyboard */; };
+		40EA6A6B1B46F3AA002E24C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6A6A1B46F3AA002E24C5 /* Images.xcassets */; };
+		40EA6A6E1B46F3AA002E24C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6A6C1B46F3AA002E24C5 /* LaunchScreen.xib */; };
+		40EA6A7A1B46F3AA002E24C5 /* MamboSlidingMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6A791B46F3AA002E24C5 /* MamboSlidingMenuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40EA6A741B46F3AA002E24C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40EA6A521B46F3A9002E24C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40EA6A591B46F3A9002E24C5;
+			remoteInfo = MamboSlidingMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40EA6A5A1B46F3A9002E24C5 /* MamboSlidingMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MamboSlidingMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EA6A5E1B46F3A9002E24C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40EA6A5F1B46F3A9002E24C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40EA6A611B46F3A9002E24C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40EA6A621B46F3A9002E24C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40EA6A641B46F3AA002E24C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40EA6A651B46F3AA002E24C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40EA6A681B46F3AA002E24C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40EA6A6A1B46F3AA002E24C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40EA6A6D1B46F3AA002E24C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		40EA6A731B46F3AA002E24C5 /* MamboSlidingMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MamboSlidingMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EA6A781B46F3AA002E24C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40EA6A791B46F3AA002E24C5 /* MamboSlidingMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MamboSlidingMenuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40EA6A571B46F3A9002E24C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EA6A701B46F3AA002E24C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40EA6A511B46F3A9002E24C5 = {
+			isa = PBXGroup;
+			children = (
+				40EA6A5C1B46F3A9002E24C5 /* MamboSlidingMenu */,
+				40EA6A761B46F3AA002E24C5 /* MamboSlidingMenuTests */,
+				40EA6A5B1B46F3A9002E24C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40EA6A5B1B46F3A9002E24C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40EA6A5A1B46F3A9002E24C5 /* MamboSlidingMenu.app */,
+				40EA6A731B46F3AA002E24C5 /* MamboSlidingMenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40EA6A5C1B46F3A9002E24C5 /* MamboSlidingMenu */ = {
+			isa = PBXGroup;
+			children = (
+				40EA6A611B46F3A9002E24C5 /* AppDelegate.h */,
+				40EA6A621B46F3A9002E24C5 /* AppDelegate.m */,
+				40EA6A641B46F3AA002E24C5 /* ViewController.h */,
+				40EA6A651B46F3AA002E24C5 /* ViewController.m */,
+				40EA6A671B46F3AA002E24C5 /* Main.storyboard */,
+				40EA6A6A1B46F3AA002E24C5 /* Images.xcassets */,
+				40EA6A6C1B46F3AA002E24C5 /* LaunchScreen.xib */,
+				40EA6A5D1B46F3A9002E24C5 /* Supporting Files */,
+			);
+			path = MamboSlidingMenu;
+			sourceTree = "<group>";
+		};
+		40EA6A5D1B46F3A9002E24C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40EA6A5E1B46F3A9002E24C5 /* Info.plist */,
+				40EA6A5F1B46F3A9002E24C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40EA6A761B46F3AA002E24C5 /* MamboSlidingMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				40EA6A791B46F3AA002E24C5 /* MamboSlidingMenuTests.m */,
+				40EA6A771B46F3AA002E24C5 /* Supporting Files */,
+			);
+			path = MamboSlidingMenuTests;
+			sourceTree = "<group>";
+		};
+		40EA6A771B46F3AA002E24C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40EA6A781B46F3AA002E24C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40EA6A591B46F3A9002E24C5 /* MamboSlidingMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EA6A7D1B46F3AA002E24C5 /* Build configuration list for PBXNativeTarget "MamboSlidingMenu" */;
+			buildPhases = (
+				40EA6A561B46F3A9002E24C5 /* Sources */,
+				40EA6A571B46F3A9002E24C5 /* Frameworks */,
+				40EA6A581B46F3A9002E24C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MamboSlidingMenu;
+			productName = MamboSlidingMenu;
+			productReference = 40EA6A5A1B46F3A9002E24C5 /* MamboSlidingMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40EA6A721B46F3AA002E24C5 /* MamboSlidingMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EA6A801B46F3AA002E24C5 /* Build configuration list for PBXNativeTarget "MamboSlidingMenuTests" */;
+			buildPhases = (
+				40EA6A6F1B46F3AA002E24C5 /* Sources */,
+				40EA6A701B46F3AA002E24C5 /* Frameworks */,
+				40EA6A711B46F3AA002E24C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40EA6A751B46F3AA002E24C5 /* PBXTargetDependency */,
+			);
+			name = MamboSlidingMenuTests;
+			productName = MamboSlidingMenuTests;
+			productReference = 40EA6A731B46F3AA002E24C5 /* MamboSlidingMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40EA6A521B46F3A9002E24C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Cristian;
+				TargetAttributes = {
+					40EA6A591B46F3A9002E24C5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					40EA6A721B46F3AA002E24C5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 40EA6A591B46F3A9002E24C5;
+					};
+				};
+			};
+			buildConfigurationList = 40EA6A551B46F3A9002E24C5 /* Build configuration list for PBXProject "MamboSlidingMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40EA6A511B46F3A9002E24C5;
+			productRefGroup = 40EA6A5B1B46F3A9002E24C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40EA6A591B46F3A9002E24C5 /* MamboSlidingMenu */,
+				40EA6A721B46F3AA002E24C5 /* MamboSlidingMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40EA6A581B46F3A9002E24C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EA6A691B46F3AA002E24C5 /* Main.storyboard in Resources */,
+				40EA6A6E1B46F3AA002E24C5 /* LaunchScreen.xib in Resources */,
+				40EA6A6B1B46F3AA002E24C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EA6A711B46F3AA002E24C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40EA6A561B46F3A9002E24C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EA6A661B46F3AA002E24C5 /* ViewController.m in Sources */,
+				40EA6A631B46F3A9002E24C5 /* AppDelegate.m in Sources */,
+				40EA6A601B46F3A9002E24C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EA6A6F1B46F3AA002E24C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EA6A7A1B46F3AA002E24C5 /* MamboSlidingMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40EA6A751B46F3AA002E24C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40EA6A591B46F3A9002E24C5 /* MamboSlidingMenu */;
+			targetProxy = 40EA6A741B46F3AA002E24C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40EA6A671B46F3AA002E24C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40EA6A681B46F3AA002E24C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40EA6A6C1B46F3AA002E24C5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40EA6A6D1B46F3AA002E24C5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40EA6A7B1B46F3AA002E24C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40EA6A7C1B46F3AA002E24C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40EA6A7E1B46F3AA002E24C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MamboSlidingMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40EA6A7F1B46F3AA002E24C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MamboSlidingMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40EA6A811B46F3AA002E24C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MamboSlidingMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MamboSlidingMenu.app/MamboSlidingMenu";
+			};
+			name = Debug;
+		};
+		40EA6A821B46F3AA002E24C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MamboSlidingMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MamboSlidingMenu.app/MamboSlidingMenu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40EA6A551B46F3A9002E24C5 /* Build configuration list for PBXProject "MamboSlidingMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EA6A7B1B46F3AA002E24C5 /* Debug */,
+				40EA6A7C1B46F3AA002E24C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EA6A7D1B46F3AA002E24C5 /* Build configuration list for PBXNativeTarget "MamboSlidingMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EA6A7E1B46F3AA002E24C5 /* Debug */,
+				40EA6A7F1B46F3AA002E24C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40EA6A801B46F3AA002E24C5 /* Build configuration list for PBXNativeTarget "MamboSlidingMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EA6A811B46F3AA002E24C5 /* Debug */,
+				40EA6A821B46F3AA002E24C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40EA6A521B46F3A9002E24C5 /* Project object */;
+}
