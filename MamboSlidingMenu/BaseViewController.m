@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    self.view.backgroundColor = UIColor.grayColor;
 }
 
 - (void)didReceiveMemoryWarning
@@ -82,11 +82,12 @@
      
     [self.navigationItem setHidesBackButton:YES];
     
+    
     UIBarButtonItem *rightButton =
     [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"ic_dehaze.png"]
-                                                                   style:UIBarButtonItemStyleDone
-                                                                   target:self
-                                                                   action:nil];
+                                     style:UIBarButtonItemStyleDone
+                                    target:self
+                                    action:nil];
     [SlideNavigationController sharedInstance].rightBarButtonItem = rightButton;
 }
 

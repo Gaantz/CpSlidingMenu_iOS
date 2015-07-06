@@ -16,8 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self initMenu];
+    [self.navigationItem setHidesBackButton:YES];
+
+}
+
+- (BOOL)slideNavigationControllerShouldDisplayRightMenu
+{
+    return NO;
 }
 
 - (void)didReceiveMemoryWarning {

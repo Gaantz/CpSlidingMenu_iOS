@@ -56,6 +56,8 @@
                     </toolbar>
                     <connections>
                         <segue destination="eWo-Ye-yZt" kind="relationship" relationship="rootViewController" id="870-0x-hL2"/>
+                        <segue destination="q1k-uc-Bhg" kind="push" id="chr-3j-KiW"/>
+                        <segue destination="B3K-wl-cwk" kind="push" id="aWk-Jr-HXy"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ifz-0n-Gei" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -136,11 +138,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Uno" id="FJc-JE-co1">
-                        <barButtonItem key="rightBarButtonItem" image="ic_dehaze.png" id="mbi-2b-ywI">
-                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Uno" id="FJc-JE-co1"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zkr-2f-zX7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -161,16 +159,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Dos" id="9nh-TH-Kev">
-                        <barButtonItem key="rightBarButtonItem" image="ic_dehaze.png" id="bue-xw-qeD">
-                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Dos" id="9nh-TH-Kev"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Zl-1G-ZgR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="477" y="1087.5"/>
+            <point key="canvasLocation" x="-933" y="1087.5"/>
         </scene>
         <!--Tres-->
         <scene sceneID="ZKh-Ci-iTA">
@@ -186,19 +180,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Tres" id="Vb4-Le-7sg">
-                        <barButtonItem key="rightBarButtonItem" image="ic_dehaze.png" id="5pI-SD-4sp">
-                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Tres" id="Vb4-Le-7sg"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qsA-a6-ekL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1137" y="1087.5"/>
+            <point key="canvasLocation" x="-1626" y="1087.5"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="ic_dehaze.png" width="24" height="24"/>
-    </resources>
 </document>
