@@ -19,12 +19,12 @@
 		40BEA4631B474B8B0017B669 /* TresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BEA4621B474B8B0017B669 /* TresViewController.m */; };
 		40EA6A601B46F3A9002E24C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6A5F1B46F3A9002E24C5 /* main.m */; };
 		40EA6A631B46F3A9002E24C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6A621B46F3A9002E24C5 /* AppDelegate.m */; };
-		40EA6A661B46F3AA002E24C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6A651B46F3AA002E24C5 /* ViewController.m */; };
 		40EA6A691B46F3AA002E24C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6A671B46F3AA002E24C5 /* Main.storyboard */; };
 		40EA6A6B1B46F3AA002E24C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6A6A1B46F3AA002E24C5 /* Images.xcassets */; };
 		40EA6A6E1B46F3AA002E24C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6A6C1B46F3AA002E24C5 /* LaunchScreen.xib */; };
 		40EA6A7A1B46F3AA002E24C5 /* MamboSlidingMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6A791B46F3AA002E24C5 /* MamboSlidingMenuTests.m */; };
 		40EA6A861B46F3E9002E24C5 /* RMenu_TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6A851B46F3E9002E24C5 /* RMenu_TableViewController.m */; };
+		40EEF9011B4AE730005E0B02 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EEF9001B4AE730005E0B02 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,6 @@
 		40EA6A5F1B46F3A9002E24C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40EA6A611B46F3A9002E24C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40EA6A621B46F3A9002E24C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		40EA6A641B46F3AA002E24C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		40EA6A651B46F3AA002E24C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		40EA6A681B46F3AA002E24C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40EA6A6A1B46F3AA002E24C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		40EA6A6D1B46F3AA002E24C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -69,6 +67,8 @@
 		40EA6A791B46F3AA002E24C5 /* MamboSlidingMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MamboSlidingMenuTests.m; sourceTree = "<group>"; };
 		40EA6A841B46F3E9002E24C5 /* RMenu_TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMenu_TableViewController.h; sourceTree = "<group>"; };
 		40EA6A851B46F3E9002E24C5 /* RMenu_TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMenu_TableViewController.m; sourceTree = "<group>"; };
+		40EEF8FF1B4AE730005E0B02 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		40EEF9001B4AE730005E0B02 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +103,7 @@
 		40BEA45A1B474B560017B669 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				40EEF9041B4AF20F005E0B02 /* Menu */,
 				40BEA45B1B474B750017B669 /* UnoViewController.h */,
 				40BEA45C1B474B750017B669 /* UnoViewController.m */,
 				40BEA45E1B474B7D0017B669 /* DosViewController.h */,
@@ -134,19 +135,11 @@
 		40EA6A5C1B46F3A9002E24C5 /* MamboSlidingMenu */ = {
 			isa = PBXGroup;
 			children = (
+				40EEF9031B4AF1E2005E0B02 /* Menu */,
+				40EEF9021B4AF1C0005E0B02 /* Delegate */,
+				40EEF8FE1B4AE71A005E0B02 /* Base */,
 				40BEA45A1B474B560017B669 /* Controllers */,
 				40BEA4511B4729870017B669 /* Images */,
-				40BEA44C1B4724E30017B669 /* SlideNavigationContorllerAnimatorSlide.h */,
-				40BEA44D1B4724E30017B669 /* SlideNavigationContorllerAnimatorSlide.m */,
-				40BEA4481B4705BD0017B669 /* SlideNavigationContorllerAnimator.h */,
-				40BEA4451B4705730017B669 /* SlideNavigationController.h */,
-				40BEA4461B4705730017B669 /* SlideNavigationController.m */,
-				40EA6A841B46F3E9002E24C5 /* RMenu_TableViewController.h */,
-				40EA6A851B46F3E9002E24C5 /* RMenu_TableViewController.m */,
-				40EA6A611B46F3A9002E24C5 /* AppDelegate.h */,
-				40EA6A621B46F3A9002E24C5 /* AppDelegate.m */,
-				40EA6A641B46F3AA002E24C5 /* ViewController.h */,
-				40EA6A651B46F3AA002E24C5 /* ViewController.m */,
 				40EA6A671B46F3AA002E24C5 /* Main.storyboard */,
 				40EA6A6C1B46F3AA002E24C5 /* LaunchScreen.xib */,
 				40EA6A6A1B46F3AA002E24C5 /* Images.xcassets */,
@@ -180,6 +173,45 @@
 				40EA6A781B46F3AA002E24C5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40EEF8FE1B4AE71A005E0B02 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				40EEF8FF1B4AE730005E0B02 /* BaseViewController.h */,
+				40EEF9001B4AE730005E0B02 /* BaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		40EEF9021B4AF1C0005E0B02 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				40EA6A611B46F3A9002E24C5 /* AppDelegate.h */,
+				40EA6A621B46F3A9002E24C5 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		40EEF9031B4AF1E2005E0B02 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				40BEA44C1B4724E30017B669 /* SlideNavigationContorllerAnimatorSlide.h */,
+				40BEA44D1B4724E30017B669 /* SlideNavigationContorllerAnimatorSlide.m */,
+				40BEA4481B4705BD0017B669 /* SlideNavigationContorllerAnimator.h */,
+				40BEA4451B4705730017B669 /* SlideNavigationController.h */,
+				40BEA4461B4705730017B669 /* SlideNavigationController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		40EEF9041B4AF20F005E0B02 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				40EA6A841B46F3E9002E24C5 /* RMenu_TableViewController.h */,
+				40EA6A851B46F3E9002E24C5 /* RMenu_TableViewController.m */,
+			);
+			name = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40EA6A661B46F3AA002E24C5 /* ViewController.m in Sources */,
+				40EEF9011B4AE730005E0B02 /* BaseViewController.m in Sources */,
 				40EA6A631B46F3A9002E24C5 /* AppDelegate.m in Sources */,
 				40BEA4631B474B8B0017B669 /* TresViewController.m in Sources */,
 				40BEA44E1B4724E30017B669 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,

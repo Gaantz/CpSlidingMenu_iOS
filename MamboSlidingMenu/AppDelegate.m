@@ -20,13 +20,31 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+    /**
+     *
+     * Obtiene referencia del Storyboard.
+     *
+     **/
     
     UIStoryboard *mainStoryboard =
     [UIStoryboard storyboardWithName:@"Main" bundle: nil];
 
+    /**
+     *
+     * Obtiene referencia del ViewController (Menu).
+     *
+     **/
+    
     RMenu_TableViewController *rightMenu = (RMenu_TableViewController*)
     [mainStoryboard instantiateViewControllerWithIdentifier: @"RMenu"];
 
+    
+    /**
+     *
+     * Establece al RMenu_TableViewController como menu izquierdo.
+     *
+     **/
+     
 	[SlideNavigationController sharedInstance].rightMenu = rightMenu;
     
     return YES;

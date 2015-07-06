@@ -7,11 +7,8 @@
 //
 
 #import "UnoViewController.h"
-#import "SlideNavigationController.h"
-#import "RMenu_TableViewController.h"
-#import "SlideNavigationContorllerAnimatorSlide.h"
 
-@interface UnoViewController () <SlideNavigationControllerDelegate>
+@interface UnoViewController ()
 
 @end
 
@@ -19,49 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     [self initMenu];
+    [self.navigationItem setHidesBackButton:NO];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
-- (BOOL)slideNavigationControllerShouldDisplayRightMenu
-{
-    return YES;
-}
-
-- (void)initMenu
-{
-    [[SlideNavigationController sharedInstance] enableSwipeGesture];
-    [[SlideNavigationController sharedInstance] panGestureSideOffset];
-    [SlideNavigationController sharedInstance].enableShadow = false;
-    
-    RMenu_TableViewController *rm =
-    ((RMenu_TableViewController*)[SlideNavigationController sharedInstance].rightMenu);
-    [rm slideOutAnimationEnabled];
-    
-    id<SlideNavigationContorllerAnimator> revealAnimator =
-    [[SlideNavigationContorllerAnimatorSlide alloc] init];
-    CGFloat duration = 0.5;
-    
-    [[SlideNavigationController sharedInstance] closeMenuWithCompletion:^{
-        [SlideNavigationController sharedInstance].menuRevealAnimationDuration = duration;
-        [SlideNavigationController sharedInstance].menuRevealAnimator = revealAnimator;
-    }];
-    
-    //[SlideNavigationController sharedInstance].rightBarButtonItem = self.btnmenu;
 }
 
 @end

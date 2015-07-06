@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol protocolo1 <NSObject>
+@protocol RigthMenuDelegate <NSObject>
 @required
--(void)cambiarTitulo:(NSString *)titulo;
+
+-(void)updateTittle:(NSString *)titulo;
+
 @end
 
 @interface RMenu_TableViewController : UITableViewController
