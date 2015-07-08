@@ -19,7 +19,17 @@
     
     [self initMenu];
     [self.navigationItem setHidesBackButton:NO];
+    
+
 }
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:YES];
+    [[self navigationController] setNavigationBarHidden:NO animated:YES];
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

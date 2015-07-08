@@ -67,12 +67,13 @@
         <!--Main-->
         <scene sceneID="vdy-ls-dIw">
             <objects>
-                <viewController id="eWo-Ye-yZt" sceneMemberID="viewController">
+                <viewController id="eWo-Ye-yZt" customClass="MainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NVU-tB-QYA"/>
                         <viewControllerLayoutGuide type="bottom" id="oHl-TK-9CZ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9hM-aI-5cF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkh-Yv-BwX">

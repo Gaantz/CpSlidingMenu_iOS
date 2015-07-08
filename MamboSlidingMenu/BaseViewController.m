@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.grayColor;
+    self.navigationItem.title = @"Main";
 }
 
 - (void)didReceiveMemoryWarning

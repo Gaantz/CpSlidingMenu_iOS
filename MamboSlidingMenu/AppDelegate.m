@@ -46,6 +46,11 @@
      **/
      
 	[SlideNavigationController sharedInstance].rightMenu = rightMenu;
+//    
+//    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"ic_dehaze.png"]];
+//    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"ic_dehaze.png"]];
+//    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -100)
+//                                                         forBarMetrics:UIBarMetricsDefault];
     
     return YES;
 }

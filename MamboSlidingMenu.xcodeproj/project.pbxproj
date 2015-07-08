@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400E5E8B1B4D98E9004D552F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400E5E8A1B4D98E9004D552F /* MainViewController.m */; };
+		405539F31B4C4791002EC783 /* Custom.xib in Resources */ = {isa = PBXBuildFile; fileRef = 405539F21B4C4791002EC783 /* Custom.xib */; };
 		40BEA4471B4705730017B669 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BEA4461B4705730017B669 /* SlideNavigationController.m */; };
 		40BEA44E1B4724E30017B669 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BEA44D1B4724E30017B669 /* SlideNavigationContorllerAnimatorSlide.m */; };
 		40BEA4501B47278E0017B669 /* ic_dehaze.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 40BEA44F1B47278E0017B669 /* ic_dehaze.imageset */; };
@@ -38,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		400E5E891B4D98E9004D552F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		400E5E8A1B4D98E9004D552F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		405539F21B4C4791002EC783 /* Custom.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Custom.xib; sourceTree = "<group>"; };
 		40BEA4451B4705730017B669 /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
 		40BEA4461B4705730017B669 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
 		40BEA4481B4705BD0017B669 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
@@ -110,6 +115,8 @@
 				40BEA45F1B474B7D0017B669 /* DosViewController.m */,
 				40BEA4611B474B8B0017B669 /* TresViewController.h */,
 				40BEA4621B474B8B0017B669 /* TresViewController.m */,
+				400E5E891B4D98E9004D552F /* MainViewController.h */,
+				400E5E8A1B4D98E9004D552F /* MainViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -145,6 +152,7 @@
 				40EA6A6A1B46F3AA002E24C5 /* Images.xcassets */,
 				40BEA44F1B47278E0017B669 /* ic_dehaze.imageset */,
 				40EA6A5D1B46F3A9002E24C5 /* Supporting Files */,
+				405539F21B4C4791002EC783 /* Custom.xib */,
 			);
 			path = MamboSlidingMenu;
 			sourceTree = "<group>";
@@ -263,6 +271,7 @@
 				TargetAttributes = {
 					40EA6A591B46F3A9002E24C5 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 2H7JJNVPU3;
 					};
 					40EA6A721B46F3AA002E24C5 = {
 						CreatedOnToolsVersion = 6.4;
@@ -301,6 +310,7 @@
 				40BEA4591B4729920017B669 /* ic_dehaze.png in Resources */,
 				40EA6A6E1B46F3AA002E24C5 /* LaunchScreen.xib in Resources */,
 				40EA6A6B1B46F3AA002E24C5 /* Images.xcassets in Resources */,
+				405539F31B4C4791002EC783 /* Custom.xib in Resources */,
 				40BEA4501B47278E0017B669 /* ic_dehaze.imageset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +332,7 @@
 				40EEF9011B4AE730005E0B02 /* BaseViewController.m in Sources */,
 				40EA6A631B46F3A9002E24C5 /* AppDelegate.m in Sources */,
 				40BEA4631B474B8B0017B669 /* TresViewController.m in Sources */,
+				400E5E8B1B4D98E9004D552F /* MainViewController.m in Sources */,
 				40BEA44E1B4724E30017B669 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 				40BEA4601B474B7D0017B669 /* DosViewController.m in Sources */,
 				40BEA45D1B474B750017B669 /* UnoViewController.m in Sources */,
@@ -405,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -443,7 +454,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MamboSlidingMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -465,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MamboSlidingMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
